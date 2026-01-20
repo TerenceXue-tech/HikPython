@@ -29,7 +29,6 @@ The system runs on a Raspberry Pi platform and is developed in Python, supportin
 
 1. Create an OBS bucket  
 2. Obtain your Huawei Cloud Access Key (AK) and Secret Key (SK)  
-
 Reference documentation:  
 https://support.huaweicloud.com/obs/index.html
 
