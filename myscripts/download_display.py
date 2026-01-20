@@ -12,11 +12,11 @@ from obs import GetObjectHeader
 # =======================
 # 配置区
 # =======================
-ak = "HPUA2W0ZB0ABZVTTUEVK"
-sk = "h1FmUfOJdjuWGKy3vFXH89l4IkyjdZSj99Q3aseC"
+ak = "your ak"
+sk = "your sk"
 server = "https://obs.cn-north-4.myhuaweicloud.com"
 
-bucketName = "lurgigpt"
+bucketName = "your name"
 prefix = "captures/"   # 云上“目录前缀”
 
 poll_interval_sec = 5.0   
