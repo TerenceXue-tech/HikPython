@@ -4,8 +4,8 @@ import traceback
 from obs import ObsClient, PutObjectHeader
 
 
-AK = "HPUA2W0ZB0ABZVTTUEVK"
-SK = "h1FmUfOJdjuWGKy3vFXH89l4IkyjdZSj99Q3aseC"
+AK = "your AK"
+SK = "your SK"
 SERVER = "https://obs.cn-north-4.myhuaweicloud.com"
 
 if not AK or not SK:
@@ -13,7 +13,7 @@ if not AK or not SK:
 
 # ========= 监控配置 =========
 WATCH_DIR = "/home/xtc/Documents/HikPython/captures"   # 你要监控的本地目录
-BUCKET_NAME = "lurgigpt"
+BUCKET_NAME = "your name"
 REMOTE_PREFIX = "captures/"  # 云端对象名前缀，可为空 ""；例如 captures/xxx.png
 POLL_INTERVAL_SEC = 5.0      # 轮询间隔：目录空时每隔多久看一次
 STABLE_WAIT_SEC = 0.3        # 文件稳定等待：避免刚写完就上传（简单稳妥）
